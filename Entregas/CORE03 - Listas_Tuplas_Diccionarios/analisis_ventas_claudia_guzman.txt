@@ -1,0 +1,113 @@
+Analisis de resultados del ejercicio de ventas - Claudia Guzmán
+
+1.  Carga de datos
+
+En primer lugar, trabajé con una lista de ventas formada por distintos
+registros, donde cada uno representa una transacción especifica. Cada
+venta incluye la fecha, el nombre del producto, la cantidad vendida y el
+precio unitario.
+
+
+2.  Calculo de ingresos totales
+
+Al calcular los ingresos totales, obtuve como resultado 2.469.000 Este
+valor representa la suma de todo el dinero generado por las ventas
+registradas.
+
+Para llegar a este resultado, en cada venta multiplique la cantidad de
+productos vendidos por su precio unitario, y luego fui acumulando esos
+valores.
+
+3.  Analisis del producto mas vendido
+
+En este punto identifique que el producto más vendido fue el Mouse, con un
+total de 7 unidades.
+
+Esto indica que el Mouse fue el producto con mayor rotación o demanda en
+términos de volumen. Sin embargo, no fue el que más ingresos generó, lo
+que demuestra que el precio unitario influye mucho en el resultado
+final.
+
+4.  Promedio de precio por producto
+
+Los promedios obtenidos fueron:
+
+Laptop: 650000.0
+Mouse: 12000.0
+Teclado: 25000.0
+Monitor: 180000.0
+
+Esto permite comparar el valor de cada producto y entender por que
+algunos generan más ingresos que otros.
+
+5.  Ventas por día
+
+Los ingresos por día fueron:
+
+2024-01-01: 1.360.000
+2024-01-02: 99.000
+2024-01-03: 1.010.000
+
+Se puede observar que las ventas no se distribuyen de manera uniforme y
+que algunos dias generan mucho más ingreso que otros.
+
+6.  Resumen de ventas por producto
+
+Laptop: cantidad 3, ingresos 1.950.000
+Mouse: cantidad 7, ingresos 84.000
+Teclado: cantidad 3, ingresos 75.000
+Monitor: cantidad 2, ingresos 360.000
+
+
+A partir de los resultados, pude concluir que no siempre el producto más
+vendido es el que más dinero genera. Tambien observe que los ingresos
+varian segun el dia y el tipo de producto vendido.
+
+Pdta. Informacion solicitada core, el analisis esta al inicio, adjunte tambien el archivo con el que hice el analisis
+
+===== LISTA DE VENTAS ORIGINAL =====
+{'fecha': '2024-01-01', 'producto': 'Laptop', 'cantidad': 2, 'precio': 650000}
+{'fecha': '2024-01-01', 'producto': 'Mouse', 'cantidad': 5, 'precio': 12000}
+{'fecha': '2024-01-02', 'producto': 'Teclado', 'cantidad': 3, 'precio': 25000}
+{'fecha': '2024-01-02', 'producto': 'Mouse', 'cantidad': 2, 'precio': 12000}
+{'fecha': '2024-01-03', 'producto': 'Laptop', 'cantidad': 1, 'precio': 650000}
+{'fecha': '2024-01-03', 'producto': 'Monitor', 'cantidad': 2, 'precio': 180000}
+
+===== INGRESOS TOTALES =====
+2469000
+
+===== PRODUCTO MAS VENDIDO =====
+Producto: Mouse
+Cantidad total vendida: 7
+
+===== PRECIO PROMEDIO POR PRODUCTO =====
+Laptop : 650000
+Mouse : 12000
+Teclado : 25000
+Monitor : 180000
+
+===== INGRESOS POR DIA =====
+2024-01-01 : 1360000
+2024-01-02 : 99000
+2024-01-03 : 1010000
+
+===== RESUMEN DE VENTAS =====
+Laptop
+  Cantidad total: 3
+  Ingresos totales: 1950000
+  Precio promedio: 650000
+
+Mouse
+  Cantidad total: 7
+  Ingresos totales: 84000
+  Precio promedio: 12000
+
+Teclado
+  Cantidad total: 3
+  Ingresos totales: 75000
+  Precio promedio: 25000
+
+Monitor
+  Cantidad total: 2
+  Ingresos totales: 360000
+  Precio promedio: 180000
